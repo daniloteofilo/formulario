@@ -15,11 +15,13 @@ section {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    background-color: gray;
+    background-color: rgb(158, 155, 155);
     width: 500px;
     padding: 3% 0.5%;
     opacity: 98%;
-    border-radius: 1%;}
+    border-radius: 1%;
+    box-shadow: 0px 0px 3px 2px white;
+}
 
 span {
     font-size: smaller;
@@ -67,7 +69,9 @@ input:focus {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     border-radius: 1rem;
+    cursor: pointer;
 }
 .botao:hover {
     opacity: 80%;
+    box-shadow: 1px 1px 4px 3px white;
 }
