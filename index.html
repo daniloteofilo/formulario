@@ -20,23 +20,24 @@
         <label class="studentname" for="firstname">
             <p class="titulosformulario">Student Name</p>
         </label>
-        <div class="inline" >
+       <div class="wrap-container">
+        <div>
             
-            <input type="text" id="firstname">
+            <label>
+                <input type="text" id="firstname">
         
         <br>
 
-            <label class="firstname" for="firstname">
-            <span>First Name</span>
+                <span>First Name</span>
+            </label>
         </div> 
 
-        </label>
+            
       
-        <div class="inline" >
+        <div>
+            <label>
             <input type="text" id="middlename">
            
-            <label class="middlename" for="middlename">
-    
             <br>
             
             <span>Middle Name</span>
@@ -44,7 +45,7 @@
       
         </label>
 
-        <div class="inline" >
+        <div>
         <input type="text" id="lastname">    
         
         <label class="lastname" for="lastname">
@@ -76,6 +77,7 @@
         </select>
     </label>
     </div>
+</div>
     
     
     <div>    
@@ -89,15 +91,17 @@
     
     <div>    
         <label class="address2" for="address2">
-            <p class="titulosformulario">Address</p>
+            <p class="titulosformulario">Address2</p>
             <input type="text" name="address2" id="address2">
             <br>
             <span>Street Address Line 2</span>
         </label>
     </div>
     
-    <div class="inline">    
+    <div> 
+           
         <label class="city" for="city">
+            <p class="titulosformulario">City</p>
             <input type="text" name="city" id="city">
             <br>
             <span>City</span>
@@ -121,7 +125,7 @@
     </div>
 
       <label class="email" for="email">
-        <div class="inline" >
+        <div class="" >
             
             <p class="titulosformulario">Student E-mail</p>
             
@@ -140,7 +144,7 @@
       
       <p class="titulosformulario">Mobile Number</p>
       
-      <input type="number" id="mobilenumber" placeholder="+55 98499-3818">
+      <input type="number" id="mobilenumber" placeholder="+55 0000000-0000">
 
   <br>
 
@@ -148,23 +152,22 @@
   </label>
 </div>
 
-
-    
-
-    
-    (000) 000-0000
-    Phone Number
-    (000) 000-0000
-    Work Number
-    (000) 000-0000
-    Company
-     
-    Courses
-    
-    Please Select
-    Additional Comments
-    Submit Application
-    Clear Fields
+<label>
+    <div class="inline" >
+        
+        <p class="titulosformulario">Phone Number</p>
+        
+        <input type="number"" placeholder="+55 0000000-0000">
+  
+    <br>
+  
+    <span>Mobile number</span>
+         </label>
+    </div>
+   <hr>
+    <div class="submit">
+         <button class="botao" type="submit">Submit Application</button>
+    </div>
 </form>
 </section>
 
